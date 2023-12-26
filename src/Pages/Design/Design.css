@@ -1,0 +1,501 @@
+.Design-mobile-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.Padlock{
+    position: relative;
+      bottom: 6rem;
+      left: 3rem;
+}
+
+.plant{
+   position: absolute;
+   margin-top: 5rem;
+   margin-left: 6rem;
+}
+.mobile{
+    position: absolute;
+    
+}
+.mobile img{
+    width: 85.847px;
+    height: 185.582px;
+    flex-shrink: 0;
+}
+
+.rightIocn{
+    position: absolute;
+    margin-right: 10rem;
+    margin-bottom: 4rem;
+}
+.rightIocn img{
+    width: 28.794px;
+height: 38.207px;
+flex-shrink: 0;
+}
+.Phone-White{
+    position: absolute;
+}
+.Phone-White img{
+    width: 76.847px;
+    height: 178.582px;
+    flex-shrink: 0;  
+}
+
+.girl{
+    position: absolute;
+    margin-top: 5rem;
+    margin-right: 3rem;
+}
+.girl img{
+    height: 185px;
+}
+
+
+
+/* Design heading text para batn */
+.design-heading-text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+ 
+}
+.design-heading-text h3{
+    margin-top: 5rem;
+    color:  #4D4D4D;
+font-family:"Medium";
+font-size: 42.019px;
+font-style: normal;
+font-weight: 600;
+line-height: 42.69px; /* 122.222% */
+}
+.design-heading-text p{
+    color:  #717171;
+font-family: "Regular";
+font-size: 24.674px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.677px; /* 142.857% */
+}
+
+.design-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-btn button{
+    border-radius: 15.335px;
+background:  #4CAF4F;
+height: 45px;
+width: 125px;
+border: none;
+
+}
+.design-btn button span{
+    color:  #FFF;
+text-align: center;
+font-family: "Medium";
+font-size: 20.342px;
+font-style: normal;
+font-weight: 500;
+line-height: 8.013px; /* 150% */
+}
+
+
+/* design Section starting from here */
+.design-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.design-card img{
+    width: 250px;
+    
+}
+
+.para-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 4rem;
+}
+.para-icons p{
+    color:  #717171;
+font-family: "Medium";
+font-size: 25.342px;
+font-style: normal;
+font-weight: 500;
+line-height: 25.013px; /* 150% */
+align-self: stretch;
+}
+.para-icons strong{
+    align-self: stretch;
+    color:  #4CAF4F;
+font-family: "Regular";
+font-size: 18.677px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.348px; /* 140% */
+}
+.para-icons b{
+    color:  #89939E;
+    align-self: stretch;
+font-family: "Regular";
+font-size: 18.342px;
+font-style: normal;
+font-weight: 400;
+line-height: 35.013px; /* 150% */
+}
+
+
+
+
+/* icons */
+.logos-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 65px;
+}
+
+.logos-btn img{
+    width: 15px;
+    height: 15px;
+}
+
+.customers-btn{
+
+    
+    
+}
+.customers-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+.customers-btn button p{  
+    margin-left: 1rem;
+    text-align: center;
+    margin-top: 0.55rem;
+color:  #4CAF4F;
+font-family: "Medium";
+font-size: 15.677px;
+font-style: normal;
+font-weight: 600;
+line-height: 15.348px; /* 140% */
+}
+
+
+@media  (max-width:992px){
+    
+    /* Design heading text para batn */
+    .design-heading-text{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+        
+    }
+    .design-heading-text h3{
+        margin-top: 5rem;
+        color:  #4D4D4D;
+    font-family:"Medium";
+    font-size: 42.019px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42.69px; /* 122.222% */
+}
+.design-heading-text p{
+    color:  #717171;
+    font-family: "Regular";
+    font-size: 24.674px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.677px; /* 142.857% */
+}
+
+.design-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.design-btn button{
+        border-radius: 15.335px;
+        background:  #4CAF4F;
+        height: 45px;
+        width: 125px;
+        border: none;
+        
+    }
+    .design-btn button span{
+        color:  #FFF;
+        text-align: center;
+        font-family: "Medium";
+        font-size: 20.342px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 8.013px; /* 150% */
+    }
+    
+    
+    /* design Section starting from here */
+    .design-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    
+    .design-card img{
+        width: 250px;
+        
+    }
+    
+    .para-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 4rem;
+    }
+    .para-icons p{
+        color:  #717171;
+        font-family: "Medium";
+        font-size: 25.342px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25.013px; /* 150% */
+        align-self: stretch;
+    }
+    .para-icons strong{
+        align-self: stretch;
+        color:  #4CAF4F;
+        font-family: "Regular";
+        font-size: 18.677px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25.348px; /* 140% */
+    }
+    .para-icons b{
+        color:  #89939E;
+        align-self: stretch;
+        font-family: "Regular";
+        font-size: 18.342px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35.013px; /* 150% */
+    }
+    
+    
+    
+    
+    /* icons */
+    .logos-btn{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+        gap: 35px;
+    }
+    
+    .logos-btn img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .customers-btn{
+    
+        
+        
+    }
+    .customers-btn button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+    }
+    .customers-btn button p{  
+        margin-left: 1rem;
+        text-align: center;
+        margin-top: 0.55rem;
+    color:  #4CAF4F;
+    font-family: "Medium";
+    font-size: 15.677px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15.348px; /* 140% */
+    }   
+  
+}
+
+@media (max-width:767.98px){
+    .Design-mobile-parent{
+      margin-left: 15rem;
+        margin-top: 15rem;
+    }
+
+    .girl{
+        position: absolute;
+        margin-top: 3rem;
+        margin-right: 5rem;
+    }
+    .girl img{
+        height: 165px;
+    }
+    
+
+    /* Design heading text para batn */
+    .design-heading-text{     
+    }
+    .design-heading-text h3{
+        margin-top: 5rem;
+      
+    font-size: 32.019px;
+  
+    line-height:45.69px; /* 122.222% */
+}
+.design-heading-text p{
+
+    font-size: 18.674px;
+ 
+   
+    line-height: 25.677px; /* 142.857% */
+}
+
+.design-btn{
+
+}
+    
+.design-btn button{
+        border-radius: 15.335px;
+        background:  #4CAF4F;
+     
+        
+    }
+    .design-btn button span{
+        font-size: 20.342px;
+        font-weight: 500;
+        line-height: 8.013px; /* 150% */
+    }
+    
+    
+    /* design Section starting from here */
+    .design-card{
+        margin-top: 4rem;
+    }
+    
+    .design-card img{
+        width: 250px;
+        
+    }
+    
+    .para-icons{
+     
+        margin-top: 4rem;
+    }
+    .para-icons p{
+     
+        font-size: 25.342px;
+   
+        font-weight: 500;
+        line-height: 25.013px; /* 150% */
+
+    }
+    .para-icons strong{
+    
+        font-size: 18.677px;
+     
+        line-height: 25.348px; /* 140% */
+    }
+    .para-icons b{
+        color:  #89939E;
+
+        font-size: 18.342px;
+
+        line-height: 35.013px; /* 150% */
+    }
+    
+    
+    
+    
+    /* icons */
+    .logos-btn{
+      
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .logos-btn img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .customers-btn{
+    
+        
+        
+    }
+    .customers-btn button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+    }
+    .customers-btn button p{  
+        margin-left: 1rem;
+        text-align: center;
+        margin-top: 0.55rem;
+    color:  #4CAF4F;
+    font-family: "Medium";
+    font-size: 15.677px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15.348px; /* 140% */
+    }   
+  
+}
+
+@media (max-width:425px){
+    .Design-mobile-parent{
+        border: 2px solid;
+        margin-left: 8rem;
+          margin-top: 15rem;
+      }
+    .logos-btn{
+      
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width:320px){
+    .customers-btn{
+     display: none;
+       
+    }
+}

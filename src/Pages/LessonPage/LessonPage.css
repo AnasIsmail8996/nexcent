@@ -1,0 +1,229 @@
+.slider-parent{
+    margin-top: 2rem;
+}
+
+.lesson-heading{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.lesson-heading h3{
+    align-self: stretch;
+    color:  #4D4D4D;
+font-family: Medium;
+font-size: 44.548px;
+font-style: normal;
+font-weight: 600;
+line-height: 52.901px; /* 118.75% */
+}
+.lesson-heading  span{
+    color:  #4CAF4F;
+font-family: Medium;
+font-size: 44.548px;
+font-style: normal;
+font-weight: 600;
+line-height: 52.901px;
+}
+.lesson-heading p{
+    color:  #717171;
+font-family: 'Redular';
+font-size: 18.137px;
+font-style: normal;
+font-weight: 400;
+line-height: 16.706px; /* 150% */
+}
+
+.lesson-btn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lesson-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 9.745px 22.274px;
+
+gap: 6.961px;
+border-radius: 2.784px;
+background:  #4CAF4F;
+border: none;
+}
+
+.lesson-btn button p{
+    text-align: center;
+    margin-top: 0.45rem;
+    color: #FFF;
+text-align: center;
+font-family: 'Medium';
+font-size: 25.137px;
+font-style: normal;
+font-weight: 500;
+line-height: 16.706px; /* 150% */
+}
+
+/* images work starting from here */
+.imageOne{
+    margin-top: 11rem;
+    margin-left: 5rem;
+  
+    position: relative;
+}
+.imageTwo{
+    position: absolute;
+    top: -8rem;
+}
+
+.imageThere{
+    top: -9.75rem;
+    position: absolute;
+        
+}
+.imageFour{
+    left: 10rem;
+    top: -7.75rem;
+    position: absolute; 
+}
+.imageFive{
+    left: 5rem;
+    top: 4rem;
+    position: absolute; 
+}
+
+.imageSix{
+    position: absolute;
+    left: 14rem;
+    top: 2rem;
+}
+.imageSeven{
+    position: absolute;
+    left: 13rem;
+    top: -7rem;
+}
+
+.carousel-indicators [data-bs-target]{
+ display: none !important;
+}
+ .carousel .carousel-control-next-icon{
+    display: none !important;
+ }  
+ .carousel .carousel-control-prev-icon{
+display: none !important;
+ }
+
+
+ @media only screen and (max-width:320px) {
+    
+    .slider-parent{
+    margin-top: 2rem;
+}
+
+.lesson-heading{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.lesson-heading h3{
+    align-self: stretch;
+    color:  #4D4D4D;
+font-family: Medium;
+font-size: 44.548px;
+font-style: normal;
+font-weight: 600;
+line-height: 52.901px; /* 118.75% */
+}
+.lesson-heading  span{
+    color:  #4CAF4F;
+font-family: Medium;
+font-size: 44.548px;
+font-style: normal;
+font-weight: 600;
+line-height: 52.901px;
+}
+.lesson-heading p{
+    color:  #717171;
+font-family: 'Redular';
+font-size: 18.137px;
+font-style: normal;
+font-weight: 400;
+line-height: 16.706px; /* 150% */
+}
+
+.lesson-btn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lesson-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 9.745px 22.274px;
+
+gap: 6.961px;
+border-radius: 2.784px;
+background:  #4CAF4F;
+border: none;
+}
+
+.lesson-btn button p{
+    text-align: center;
+    margin-top: 0.45rem;
+    color: #FFF;
+text-align: center;
+font-family: 'Medium';
+font-size: 25.137px;
+font-style: normal;
+font-weight: 500;
+line-height: 16.706px; /* 150% */
+}
+
+/* images work starting from here */
+.imageOne{
+    margin-top: 11rem;
+    margin-left: 0rem;
+  
+    position: relative;
+}
+.imageTwo{
+    position: absolute;
+    top: -8rem;
+}
+
+.imageThere{
+    top: -9.75rem;
+    position: absolute;
+        
+}
+.imageFour{
+    left: 10rem;
+    top: -7.75rem;
+    position: absolute; 
+}
+.imageFive{
+    left: 5rem;
+    top: 4rem;
+    position: absolute; 
+}
+
+.imageSix{
+    position: absolute;
+    left: 14rem;
+    top: 2rem;
+}
+.imageSeven{
+    position: absolute;
+    left: 13rem;
+    top: -7rem;
+}
+ }

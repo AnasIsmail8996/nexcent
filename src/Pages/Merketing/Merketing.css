@@ -1,0 +1,336 @@
+.marketing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    height: 250px;
+   margin-left: 18rem;
+}
+.marketing h3{
+    
+    color:  #4D4D4D;
+text-align: center;
+font-family: "Medium";
+font-size: 28.019px;
+font-style: normal;
+font-weight: 600;
+line-height: 31.69px; /* 122.222% */
+}
+.marketing p{
+    color:  #717171;
+text-align: center;
+font-family: "Regular";
+font-size: 18.342px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.013px; /* 150% */
+}
+
+/* card starting from here */
+.card-img-merketing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.card-img-merketing img{
+    width: 100%;
+}
+
+.card-b-text{
+ 
+    width: 88%;
+    height: 150px;
+    position: absolute;
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.671px;
+background: #F5F7FA;
+box-shadow: 0px 2.671px 5.342px 0px rgba(171, 190, 209, 0.40);
+}
+.card-b-text p{
+    color: #717171;
+text-align: center;
+font-family: "Regular";
+font-size: 18.677px;
+font-style: normal;
+font-weight: 600;
+line-height:25.348px; /* 140% */
+}
+
+
+
+.card-b-text-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-b-text-btn button{
+    border: none;
+    width: 100%;
+
+}
+
+.card-b-text-btn button p{
+margin-top: 1rem;
+    color:  #4CAF4F;
+font-family: "Medium";
+font-size: 20.677px;
+font-style: normal;
+font-weight: 600;
+line-height: 9.348px; /* 140% */
+}
+
+
+/* media query starting from here */
+@media (max-width:992px){
+    .marketing{
+        width: 100%;
+        height: 250px;
+       margin-left: 6rem;
+    }
+    .marketing h3{
+        
+        color:  #4D4D4D;
+    text-align: center;
+    font-family: "Medium";
+    font-size: 28.019px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.69px; /* 122.222% */
+    }
+    .marketing p{
+        color:  #717171;
+    text-align: center;
+    font-family: "Regular";
+    font-size: 18.342px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.013px; /* 150% */
+    }
+    
+    /* card starting from here */
+    .card-img-merketing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+    }
+    
+    
+    .card-img-merketing img{
+        width: 100%;
+    }
+    
+    .card-b-text{
+     
+        width: 88%;
+        height: 150px;
+        position: absolute;
+        margin-top: -5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2.671px;
+    background: #F5F7FA;
+    box-shadow: 0px 2.671px 5.342px 0px rgba(171, 190, 209, 0.40);
+    }
+    .card-b-text p{
+        color: #717171;
+    text-align: center;
+    font-family: "Regular";
+    font-size: 18.677px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:25.348px; /* 140% */
+    }
+    
+    
+    
+    .card-b-text-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .card-b-text-btn button{
+        border: none;
+        width: 100%;
+    
+    }
+    
+    .card-b-text-btn button p{
+    margin-top: 1rem;
+        color:  #4CAF4F;
+    font-family: "Medium";
+    font-size: 20.677px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 9.348px; /* 140% */
+    }
+    
+}
+
+@media (max-width:767.98px){
+    .marketing{
+      
+        width:205%;
+        height: 250px;
+       margin-left: 1rem;
+    }
+    .marketing h3{
+        
+     
+    font-size: 28.019px;
+    font-style: normal;
+ 
+    line-height: 31.69px; /* 122.222% */
+    }
+    .marketing p{
+      
+    font-size: 18.342px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.013px; /* 150% */
+    }
+    
+    /* card starting from here */
+    .card-img-merketing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    
+    .card-img-merketing img{
+        width: 100%;
+    }
+    
+    .card-b-text{
+        
+        width: 88%;
+        height: 150px;
+        position: absolute;
+        margin-top: -5rem;
+   ;
+    }
+    .card-b-text p{
+      
+        font-size: 18.677px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:25.348px; /* 140% */
+}
+
+
+
+.card-b-text-btn{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .card-b-text-btn button{
+        border: none;
+        width: 100%;
+    
+    }
+    
+    .card-b-text-btn button p{
+    margin-top: 1rem;
+        color:  #4CAF4F;
+    font-family: "Medium";
+    font-size: 20.677px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 9.348px; /* 140% */
+    }
+    
+}
+
+@media (max-width:575.98px){
+    .marketing{
+      
+        width: 90%;
+        height: 250px;
+       margin-left: 1rem;
+    }
+    .marketing h3{
+        
+     
+    font-size: 28.019px;
+    font-style: normal;
+ 
+    line-height: 31.69px; /* 122.222% */
+    }
+    .marketing p{
+      
+    font-size: 18.342px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.013px; /* 150% */
+    }
+    
+    /* card starting from here */
+    .card-img-merketing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    
+    .card-img-merketing img{
+        width: 100%;
+    }
+    
+    .card-b-text{
+        
+        width: 88%;
+        height: 150px;
+        position: absolute;
+        margin-top: -5rem;
+    }
+    .card-b-text p{
+      
+        font-size: 18.677px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:25.348px; /* 140% */
+}
+
+
+
+.card-b-text-btn{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .card-b-text-btn button{
+        border: none;
+        width: 100%;
+    
+    }
+    
+    .card-b-text-btn button p{
+    margin-top: 1rem;
+   
+    font-size: 20.677px;
+  
+    line-height: 9.348px; /* 140% */
+    }
+    
+}
